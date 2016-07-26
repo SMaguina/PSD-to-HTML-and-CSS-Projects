@@ -1,0 +1,25 @@
+{
+  "name": "basicBuild",
+  "version": "1.5.0",
+  "description": "basic setup",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sylvia Maguina",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "postcss": "^5.0.10",
+    "cssgrace": "~3.0.0",
+    "autoprefixer": "^6.0.1",
+    "cssnano": "^3.3.2",
+    "grunt": "~1.0.1",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-less": "~1.3.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-postcss": "^0.8.0"
+  },
+  "dependencies": {
+    "latest": "~0.2.0"
+  }
+}
