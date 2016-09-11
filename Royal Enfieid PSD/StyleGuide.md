@@ -1,5 +1,9 @@
 ## Style Guide
 
+#### Design Wireframe
+
+![alt text] (http://i1146.photobucket.com/albums/o531/smag23/layout_zpsivkbr32l.png)
+
 #### Notes
 
    Frame Border is 9px all around   
