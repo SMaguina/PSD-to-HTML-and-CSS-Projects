@@ -12,3 +12,21 @@ $regular: 400;
 $bold: 'Cormorant-Bold', sans-serif;
 $italic: 'Cormorant-SemiBold', sans-serif;
 $title_font: 'Playfair Display SC Regular', sans-serif;
+
+/* ---- SCSS GUTTER ---- */
+$gutter: 2%;
+
+/* ---- SCSS MIXIN for MULTIPLE COLUMNS ---- */
+@mixin columns($count, $line_color) {
+  -webkit-column-count: $count; /* Chrome, Safari, Opera */
+  -moz-column-count: $count; /* Firefox */
+  column-count: $count;
+
+  -webkit-column-gap: $gutter; /* Chrome, Safari, Opera */
+  -moz-column-gap: $gutter; /* Firefox */
+  column-gap: $gutter;
+
+  -webkit-column-rule: 1px outset $line_color; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px outset $line_color; /* Firefox */
+  column-rule: 1px outset $line_color;
+}
