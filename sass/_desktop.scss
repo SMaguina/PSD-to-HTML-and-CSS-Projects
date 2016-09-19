@@ -1,0 +1,8 @@
+/*------ NEWSPAPER STYLE COLUMNS ------*/
+.multicol {
+	@include columns(3, $dkgrey);
+}
+
+body {
+background-color: $ltgrey;
+}

@@ -49,3 +49,25 @@ table {
 /* ---- SCSS FOR FONT FAMILY ---- */
 /* ---- SCSS GUTTER ---- */
 /* ---- SCSS MIXIN for MULTIPLE COLUMNS ---- */
+/*------ NEWSPAPER STYLE COLUMNS ------*/
+.multicol {
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 2%;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 2%;
+  /* Firefox */
+  column-gap: 2%;
+  -webkit-column-rule: 1px outset #212121;
+  /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px outset #212121;
+  /* Firefox */
+  column-rule: 1px outset #212121; }
+
+body {
+  background-color: #d9d9d3; }
+
+/*# sourceMappingURL=styles.css.map */
