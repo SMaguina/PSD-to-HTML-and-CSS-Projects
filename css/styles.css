@@ -49,6 +49,9 @@ table {
 /* ---- SCSS FOR FONT FAMILY ---- */
 /* ---- SCSS GUTTER ---- */
 /* ---- SCSS MIXIN for MULTIPLE COLUMNS ---- */
+body {
+  background-color: #d9d9d3; }
+
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
   -webkit-column-count: 3;
@@ -66,8 +69,5 @@ table {
   -moz-column-rule: 1px outset #212121;
   /* Firefox */
   column-rule: 1px outset #212121; }
-
-body {
-  background-color: #d9d9d3; }
 
 /*# sourceMappingURL=styles.css.map */

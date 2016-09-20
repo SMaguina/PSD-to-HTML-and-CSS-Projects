@@ -1,8 +1,8 @@
+body {
+background-color: #d9d9d3;
+}
+
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
 	@include columns(3, $dkgrey);
-}
-
-body {
-background-color: $ltgrey;
 }
