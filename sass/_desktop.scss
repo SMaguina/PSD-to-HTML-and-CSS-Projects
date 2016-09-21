@@ -1,8 +1,14 @@
 body {
-background-color: #d9d9d3;
+background-color: $ltgrey;
+border-top: 9px solid $white;
+}
+
+#cycle {
+margin: 0 auto;
+display: block;
 }
 
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
-	@include columns(3, $dkgrey);
+@include columns(3, $dkgrey);
 }

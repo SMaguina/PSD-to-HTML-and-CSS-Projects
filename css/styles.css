@@ -50,7 +50,12 @@ table {
 /* ---- SCSS GUTTER ---- */
 /* ---- SCSS MIXIN for MULTIPLE COLUMNS ---- */
 body {
-  background-color: #d9d9d3; }
+  background-color: #d9d9d3;
+  border-top: 9px solid #ffffff; }
+
+#cycle {
+  margin: 0 auto;
+  display: block; }
 
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
@@ -69,5 +74,3 @@ body {
   -moz-column-rule: 1px outset #212121;
   /* Firefox */
   column-rule: 1px outset #212121; }
-
-/*# sourceMappingURL=styles.css.map */
