@@ -7,11 +7,11 @@ $text-color: $dkgrey;
 
 
 /* ---- SCSS FOR FONT FAMILY ---- */
-$default_font_family: 'Cormorant-Regular', sans-serif;
+$default_font_family: 'Cormorant-Regular', serif;
 $regular: 400;
-$bold: 'Cormorant-Bold', sans-serif;
-$italic: 'Cormorant-SemiBold', sans-serif;
-$title_font: 'Playfair Display SC Regular', sans-serif;
+$bold: 'Cormorant-Bold', serif;
+$italic: 'Cormorant-SemiBold', serif;
+$title_font: 'Playfair Display SC', sans-serif;
 
 /* ---- SCSS GUTTER ---- */
 $gutter: 2%;
