@@ -1,6 +1,11 @@
 body {
 background-color: $ltgrey;
 border-top: 9px solid $white;
+font-family: $default_font_family;
+}
+
+h1, h2 {
+font-family: $title_font;
 }
 
 #cycle {
