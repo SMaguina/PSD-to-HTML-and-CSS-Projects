@@ -27,3 +27,6 @@
    Background color - #d9d9d3   
    White frame border - #ffffff   
    Carousel icons - #212121   
+   
+#### Preview Progress here:
+[Royal Enfield](http://royalenfieid.netlify.com)
