@@ -54,10 +54,18 @@ body {
   border-top: 9px solid #ffffff;
   font-family: "Cormorant-Regular", serif; }
 
-h1, h2 {
-  font-family: "Playfair Display SC", sans-serif; }
+h1 {
+  font-family: "Playfair Display SC", sans-serif;
+  font-size: 30px; }
+
+#title h1 {
+  text-align: center; }
 
 #cycle {
+  margin: 0 auto;
+  display: block; }
+
+#dots {
   margin: 0 auto;
   display: block; }
 

@@ -1,16 +1,26 @@
 body {
-background-color: $ltgrey;
-border-top: 9px solid $white;
-font-family: $default_font_family;
+  background-color: $ltgrey;
+  border-top: 9px solid $white;
+  font-family: $default_font_family;
 }
 
-h1, h2 {
-font-family: $title_font;
+h1 {
+  font-family: $title_font;
+  font-size: 30px;
+}
+
+#title h1 {
+  text-align: center;
 }
 
 #cycle {
-margin: 0 auto;
-display: block;
+  margin: 0 auto;
+  display: block;
+}
+
+#dots {
+  margin: 0 auto;
+  display: block;
 }
 
 /*------ NEWSPAPER STYLE COLUMNS ------*/
