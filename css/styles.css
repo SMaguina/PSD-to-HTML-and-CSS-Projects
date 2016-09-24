@@ -49,10 +49,28 @@ table {
 /* ---- SCSS FOR FONT FAMILY ---- */
 /* ---- SCSS GUTTER ---- */
 /* ---- SCSS MIXIN for MULTIPLE COLUMNS ---- */
+html {
+  height: 100%; }
+
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #ffffff;
+  left: 0;
+  right: 0;
+  height: 9px; }
+
+body:before {
+  top: 0; }
+
+body:after {
+  bottom: 0; }
+
 body {
   background-color: #d9d9d3;
-  border-top: 9px solid #ffffff;
-  font-family: "Cormorant-Regular", serif; }
+  font-family: "Cormorant-Regular", serif;
+  border-left: 9px solid #ffffff;
+  border-right: 9px solid #ffffff; }
 
 h1 {
   font-family: "Playfair Display SC", sans-serif;
