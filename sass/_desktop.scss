@@ -26,6 +26,7 @@ body {
   font-family: $default_font_family;
   border-left: 9px solid $white;
   border-right: 9px solid $white;
+  height: 100%;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h1 {
 
 #title h1 {
   text-align: center;
+  padding: 40px 20px;
 }
 
 #cycle {

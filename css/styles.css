@@ -70,14 +70,16 @@ body {
   background-color: #d9d9d3;
   font-family: "Cormorant-Regular", serif;
   border-left: 9px solid #ffffff;
-  border-right: 9px solid #ffffff; }
+  border-right: 9px solid #ffffff;
+  height: 100%; }
 
 h1 {
   font-family: "Playfair Display SC", sans-serif;
   font-size: 30px; }
 
 #title h1 {
-  text-align: center; }
+  text-align: center;
+  padding: 40px 20px; }
 
 #cycle {
   margin: 0 auto;
@@ -99,8 +101,4 @@ h1 {
   -moz-column-gap: 2%;
   /* Firefox */
   column-gap: 2%;
-  -webkit-column-rule: 1px outset #212121;
-  /* Chrome, Safari, Opera */
-  -moz-column-rule: 1px outset #212121;
-  /* Firefox */
-  column-rule: 1px outset #212121; }
+  /* Removes newspaper-style column lines */ }
