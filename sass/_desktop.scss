@@ -49,6 +49,23 @@ h1 {
   display: block;
 }
 
+/*------ COLUMNS -------*/
+main {
+	.row {
+		clear: both;
+	}
+	.column {
+		padding: 0 $gutter;
+	}
+}
+
+
+@for $i from 1 through 12 {
+	$w:($i /12) * 100%;
+	.small-#{$i} {width: $w; float: left;}
+}
+
+
 /*------ NEWSPAPER STYLE COLUMNS ------*/
 .multicol {
 @include columns(3, $dkgrey);
