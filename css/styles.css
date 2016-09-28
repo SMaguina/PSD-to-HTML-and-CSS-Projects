@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:400,600,700);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,6 +47,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* GOOGLE FONTS */
 /* ---- SCSS FOR COLORS ---- */
 /* ---- SCSS FOR FONT FAMILY ---- */
 /* ---- SCSS GUTTER ---- */
@@ -67,8 +70,9 @@ body:after {
   bottom: 0; }
 
 body {
-  background-color: #d9d9d3;
   font-family: "Cormorant-Regular", serif;
+  font-weight: 400;
+  background-color: #d9d9d3;
   border-left: 9px solid #ffffff;
   border-right: 9px solid #ffffff;
   height: 100%; }
@@ -95,51 +99,51 @@ main .row {
 main .column {
   padding: 0 2%; }
 
-.small-1 {
+.large-1 {
   width: 8.3333333333%;
   float: left; }
 
-.small-2 {
+.large-2 {
   width: 16.6666666667%;
   float: left; }
 
-.small-3 {
+.large-3 {
   width: 25%;
   float: left; }
 
-.small-4 {
+.large-4 {
   width: 33.3333333333%;
   float: left; }
 
-.small-5 {
+.large-5 {
   width: 41.6666666667%;
   float: left; }
 
-.small-6 {
+.large-6 {
   width: 50%;
   float: left; }
 
-.small-7 {
+.large-7 {
   width: 58.3333333333%;
   float: left; }
 
-.small-8 {
+.large-8 {
   width: 66.6666666667%;
   float: left; }
 
-.small-9 {
+.large-9 {
   width: 75%;
   float: left; }
 
-.small-10 {
+.large-10 {
   width: 83.3333333333%;
   float: left; }
 
-.small-11 {
+.large-11 {
   width: 91.6666666667%;
   float: left; }
 
-.small-12 {
+.large-12 {
   width: 100%;
   float: left; }
 
