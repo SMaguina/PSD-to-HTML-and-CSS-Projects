@@ -21,9 +21,10 @@ body:after {
 // Body Border end
 
 body {
+  font-family: $default_font_family;
+  font-weight:400;
   background-color: $ltgrey;
   //border-top: 9px solid $white;
-  font-family: $default_font_family;
   border-left: 9px solid $white;
   border-right: 9px solid $white;
   height: 100%;
@@ -62,7 +63,7 @@ main {
 
 @for $i from 1 through 12 {
 	$w:($i /12) * 100%;
-	.small-#{$i} {width: $w; float: left;}
+	.large-#{$i} {width: $w; float: left;}
 }
 
 
