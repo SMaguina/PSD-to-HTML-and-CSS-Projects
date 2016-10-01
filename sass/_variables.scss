@@ -1,3 +1,7 @@
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:400,600,700);
+
 /* ---- SCSS FOR COLORS ---- */
 $dkgrey: #212121;
 $ltgrey: #d9d9d3;
@@ -5,11 +9,10 @@ $white: #ffffff;
 
 $text-color: $dkgrey;
 
-
 /* ---- SCSS FOR FONT FAMILY ---- */
 $default_font_family: 'Cormorant-Regular', serif;
-$bold: 'Cormorant-Bold', serif;
-$italic: 'Cormorant-SemiBold', serif;
+$bold: 'Cormorant-Bold';
+$italic: 'Cormorant-SemiBold';
 $title_font: 'Playfair Display SC', sans-serif;
 
 /* ---- SCSS GUTTER ---- */
